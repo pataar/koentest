@@ -1,5 +1,9 @@
-import _ from 'lodash';
+import random from 'lodash/random';
+import range from 'lodash/range';
 
 export function superRandom(){
-  return _.random(0, 100);
+  return random(0, 100);
+}
+export function superrange(){
+  return range(0, 100);
 }
